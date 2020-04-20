@@ -1,5 +1,4 @@
 {
-  "name": "learnstorybook-design-system",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -54,9 +53,9 @@
     "prettier": "^1.18.2",
     "storybook-chromatic": "^2.2.2"
   },
-  "description": "Learn Storybook design system",
+  "description": "blakes-design-system",
   "main": "dist/index.js",
   "repository": "https://github.com/Blakeing/blakes-design-system.git",
-  "author": "Tom Coleman <tom@thesnail.org>",
+  "author": "Blake Ingenthron <blakeingenthron@gmail.com>",
   "license": "MIT"
 }
