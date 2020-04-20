@@ -56,7 +56,7 @@
   },
   "description": "Learn Storybook design system",
   "main": "dist/index.js",
-  "repository": "https://github.com/chromaui/learnstorybook-design-system.git",
+  "repository": "https://github.com/Blakeing/blakes-design-system.git",
   "author": "Tom Coleman <tom@thesnail.org>",
   "license": "MIT"
 }

@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.10.0
+      - image: circleci/node:10.14
 
     working_directory: ~/repo
 
@@ -22,7 +22,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn test
-      - run: yarn chromatic test -a 2wix88i1ziu --exit-zero-on-changes
       - run: |
           if [ $CIRCLE_BRANCH = "master" ]
           then
